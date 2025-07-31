@@ -13,7 +13,7 @@ from urllib.parse import urlparse, parse_qs
 # ================
 # CONFIG
 # ================
-HUGGINGFACE_MODEL = "microsoft/Phi-3-mini-4k-instruct"  # Hugging Face text generation model
+HUGGINGFACE_MODEL = "microsoft/Phi-3-mini-4k-instruct"  # Hugging Face text generation model, you can use other models as well
 WATCH_TIME_MIN = 180  # 3 min
 WATCH_TIME_MAX = 600  # 10 min
 COMMENT_HISTORY_FILE = "used_comments.json"
