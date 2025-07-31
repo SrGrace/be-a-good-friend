@@ -92,7 +92,7 @@ INTERESTING_WORDS = [
     'खोपड़ी', 'सड़न', 'काला', 'धुंध', 'साया', 'अदृश्य', 'परछाई'
 ]
 
-def score_snippet(snippet):
+def score_snippet(snippet): # scoring can be done using llms as well
     """
     Score snippet based on interestingness:
     - Longer text gets higher score
