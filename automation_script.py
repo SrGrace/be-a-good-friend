@@ -62,7 +62,7 @@ def get_video_title(video_id):
 # ================
 # STEP 2: FETCH TRANSCRIPT SNIPPETS
 # ================
-# Some Hindi emotional keywords (can be extended)
+# Some Hindi emotional keywords (can be extended - you can use your own or use an llm to figure this out)
 INTERESTING_WORDS = [
     # Fear / Horror
     'डर', 'डरावना', 'भय', 'भयानक', 'सिहरन', 'चौंक', 'चीख', 'हड्डी', 'खून',
